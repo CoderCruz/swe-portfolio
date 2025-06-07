@@ -7,15 +7,12 @@ export async function generateStaticParams() {
   return allProjects.map(p => ({ slug: p.slug }));
 }
 
-interface ProjectDetailProps {
-  params: {
-    slug: string;
-  };
-}
+export default async function ProjectDetail({ params }: { params: { slug: string } }) {
+  const { slug } = await params
+  console.log(slug)
+  const project = allProjects.find((p) => p.slug === slug);
 
-export default async function ProjectDetail({ params }: ProjectDetailProps) {  const project = allProjects.find(p => p.slug === params.slug);
-  if (!project) notFound();
-
+  if (!project) return notFound();
   return (
     <main className="max-w-5xl mx-auto px-4 md:px-6 py-12">
       <article className="space-y-8">
