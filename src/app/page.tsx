@@ -1,5 +1,5 @@
-import Projects from './projects/page.tsx';
-import About from './about/page.tsx'
+import Projects from './projects/page';
+import About from './about/page'
 
 export default function Home() {
   return (
