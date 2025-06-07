@@ -3,7 +3,7 @@ import { allProjects } from '@/lib/projects';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export async function generateStaticParams() {
+export function generateStaticParams() {
   return allProjects.map(p => ({ slug: p.slug }));
 }
 
