@@ -26,6 +26,24 @@ export const allProjects: Project[] = [
     tech: ['JavaScript', 'Node.js'], 
     site: '',
     github: 'https://github.com/CoderCruz/node-note-app/tree/master'
+  },
+  {
+    slug: 'the-book-store',
+    title: 'The Book Store',
+    description: 'Book Store is a public web app that lets users browse a library of books, add new titles, delete entries, and view individual book details. It features full CRUD functionality and a clean, responsive UI, with separate deployments for the frontend and backend to ensure smooth performance and scalability.',
+    image: '/bookstore.png',
+    tech: ['JavaScript', 'Node.js', 'MongoDB', 'Express.js', 'React.js', 'Vite', 'CSS', 'HTML', 'Tailwindcss'], 
+    site: 'https://book-store-teal-sigma.vercel.app',
+    github: 'https://github.com/CoderCruz/book-store'
+  },
+  {
+    slug: 'jose-swe-portfolio',
+    title: 'Jose SWE portfolio',
+    description: 'My personal portfolio showcases selected projects, technical skills, and professional experience as a fullstack software engineer. It’s designed to highlight my strengths in building scalable web applications, with an emphasis on clean UI, responsive design, and modern development practices.',
+    image: '/sweportfolio.png',
+    tech: ['JavaScript', 'Node.js', 'Next.js', 'Tailwindcss', 'HTML', 'CSS'], 
+    site: 'https://www.cruzcode.app',
+    github: 'https://github.com/CoderCruz/swe-portfolio'
   }, 
 
 ]
