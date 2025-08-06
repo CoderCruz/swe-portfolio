@@ -10,6 +10,15 @@ export interface Project {
 
 export const allProjects: Project[] = [
   {
+    slug: 'lol-stats',
+    title: 'Lol Stats',
+    description: 'LoLStats is a responsive League of Legends web app that lets users select a champion, view their base stats, and customize builds by adding items. The app dynamically updates champion stats based on item bonuses and offers real-time filtering and UI feedback. Designed with gamers and theorycrafters in mind, it provides an intuitive experience powered by live data from Riot’s Data Dragon API.',
+    image: '/champbuilder.png',
+    tech: ['Next.js', 'TypeScript', 'React', 'Vite', 'TailwindCSS', 'Riot API', 'React Router', 'Axios'],
+    site: 'https://lolstats-nine.vercel.app',
+    github: 'https://github.com/CoderCruz/LOLSTATS/'
+  },
+  {
     slug: 'very-possible-game',
     title: 'Very Possible Game',
     description: 'A kids game where you must jump over the monsters coming your way. Jump over the monsters a certain amount of times and you win the game!',
@@ -45,5 +54,5 @@ export const allProjects: Project[] = [
     site: 'https://www.cruzcode.app',
     github: 'https://github.com/CoderCruz/swe-portfolio'
   }, 
-
+  
 ]
