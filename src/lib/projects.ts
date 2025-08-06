@@ -14,7 +14,7 @@ export const allProjects: Project[] = [
     title: 'Lol Stats',
     description: 'LoLStats is a responsive League of Legends web app that lets users select a champion, view their base stats, and customize builds by adding items. The app dynamically updates champion stats based on item bonuses and offers real-time filtering and UI feedback. Designed with gamers and theorycrafters in mind, it provides an intuitive experience powered by live data from Riot’s Data Dragon API.',
     image: '/champbuilder.png',
-    tech: ['Next.js', 'TypeScript', 'React', 'Vite', 'TailwindCSS', 'Riot API', 'React Router', 'Axios'],
+    tech: ['TypeScript', 'React', 'Vite', 'TailwindCSS', 'Riot API', 'React Router', 'Axios'],
     site: 'https://lolstats-nine.vercel.app',
     github: 'https://github.com/CoderCruz/LOLSTATS/'
   },
