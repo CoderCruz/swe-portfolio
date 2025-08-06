@@ -19,6 +19,24 @@ export const allProjects: Project[] = [
     github: 'https://github.com/CoderCruz/LOLSTATS/'
   },
   {
+    slug: 'nest-navigate',
+    title: 'NestNavigate',
+    description: 'NestNavigate is a full-stack learning progress tracker. It features user registration, login, and authenticated access to personalized learning modules. Users can track lesson completion, earn coins, and view progress in a clean dashboard UI. Built with FastAPI on the backend and React on the frontend, the app demonstrates real-world RESTful API design, JWT authentication, database integration, and modern deployment strategies.',
+    image: '/nestnavigate.png', 
+    tech: ['TypeScript', 'React', 'Vite', 'TailwindCSS', 'FastAPI', 'Pydantic', 'SQLAlchemy', 'JWT', 'SQLite', 'Axios'],
+    site: 'https://nest-navigate-nine.vercel.app', 
+    github: 'https://github.com/CoderCruz/nestNavigate'
+  },
+  {
+    slug: 'jose-swe-portfolio',
+    title: 'Jose SWE portfolio',
+    description: 'My personal portfolio showcases selected projects, technical skills, and professional experience as a fullstack software engineer. It’s designed to highlight my strengths in building scalable web applications, with an emphasis on clean UI, responsive design, and modern development practices.',
+    image: '/sweportfolio.png',
+    tech: ['JavaScript', 'Node.js', 'Next.js', 'Tailwindcss', 'HTML', 'CSS'], 
+    site: 'https://www.cruzcode.app',
+    github: 'https://github.com/CoderCruz/swe-portfolio'
+  },
+  {
     slug: 'very-possible-game',
     title: 'Very Possible Game',
     description: 'A kids game where you must jump over the monsters coming your way. Jump over the monsters a certain amount of times and you win the game!',
@@ -45,14 +63,6 @@ export const allProjects: Project[] = [
     site: 'https://book-store-teal-sigma.vercel.app',
     github: 'https://github.com/CoderCruz/book-store'
   },
-  {
-    slug: 'jose-swe-portfolio',
-    title: 'Jose SWE portfolio',
-    description: 'My personal portfolio showcases selected projects, technical skills, and professional experience as a fullstack software engineer. It’s designed to highlight my strengths in building scalable web applications, with an emphasis on clean UI, responsive design, and modern development practices.',
-    image: '/sweportfolio.png',
-    tech: ['JavaScript', 'Node.js', 'Next.js', 'Tailwindcss', 'HTML', 'CSS'], 
-    site: 'https://www.cruzcode.app',
-    github: 'https://github.com/CoderCruz/swe-portfolio'
-  }, 
+  
   
 ]
